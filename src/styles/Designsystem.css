@@ -190,7 +190,6 @@ a {
     .navbar__menu {
         z-index: 1;
         position: absolute;
-        overflow: hidden;
         background-color: var(--color-blue-100);
         top: 15vh;
         left: 0;
@@ -218,6 +217,13 @@ a {
         z-index: -1;
         opacity: 0%;
     }
+
+    /* .sectionTwo {
+        max-width: 548px;
+        margin: auto;
+        align-items: center;
+    } */
+
 }
 
 @media (max-width: 568px) {
@@ -263,9 +269,6 @@ a {
     grid-template-columns: repeat(2, 1fr);
     padding: 20px 0;
     gap: 45px;
-    max-width: 1140px;
-    margin: auto;
-    align-items: center;
 }
 
 .sectionTwo__left {

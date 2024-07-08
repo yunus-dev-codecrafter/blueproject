@@ -139,7 +139,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
     cursor: pointer;
     font-family: var(--font-2);
     font-size: var(--h6);
@@ -192,9 +192,9 @@ a {
         position: absolute;
         overflow: hidden;
         background-color: var(--color-blue-100);
-        top: 23vh;
+        top: 15vh;
         left: 0;
-        height: 48%;
+        height: 100vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -203,7 +203,7 @@ a {
     }
 
     .navbar__menu--item-1 {
-        margin-top: -165px;
+        margin-top: -200px;
     }
 
     .navbar__icons {
@@ -284,4 +284,13 @@ a {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+/* !style rules for sectionFour */
+
+.sectionFour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 0;
+    gap: 45px;
 }

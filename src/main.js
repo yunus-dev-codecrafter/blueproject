@@ -1,5 +1,5 @@
-let openBtn = document.querySelector(".openBtn");
-let closeBtn = document.querySelector(".closeBtn");
+let openBtn = document.querySelector(".fa-bars");
+let closeBtn = document.querySelector(".fa-xmark");
 let menu = document.querySelector(".navbar__menu");
 
 

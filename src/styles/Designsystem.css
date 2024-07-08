@@ -258,6 +258,7 @@ a {
 /* !style rules for section Two */
 
 .sectionTwo {
+    background-color: var(--color-white-100);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 20px 0;

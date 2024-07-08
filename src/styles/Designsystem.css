@@ -297,3 +297,9 @@ a {
     padding: 20px 0;
     gap: 45px;
 }
+
+.sectionFour__left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -263,6 +263,9 @@ a {
     grid-template-columns: repeat(2, 1fr);
     padding: 20px 0;
     gap: 45px;
+    max-width: 1140px;
+    margin: auto;
+    align-items: center;
 }
 
 .sectionTwo__left {

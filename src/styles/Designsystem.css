@@ -106,6 +106,7 @@
 /* !style rules for the hero div */
 .hero {
     background-color: var(--color-blue-100);
+    overflow: hidden;
 }
 
 /* !styles rules for the navbar div  */

@@ -139,7 +139,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
     cursor: pointer;
     font-family: var(--font-2);
     font-size: var(--h6);
@@ -190,10 +190,11 @@ a {
     .navbar__menu {
         z-index: 1;
         position: absolute;
+        overflow: hidden;
         background-color: var(--color-blue-100);
-        top: 14vh;
+        top: 23vh;
         left: 0;
-        height: 100%;
+        height: 48%;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -202,7 +203,7 @@ a {
     }
 
     .navbar__menu--item-1 {
-        margin-top: -250px;
+        margin-top: -165px;
     }
 
     .navbar__icons {

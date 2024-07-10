@@ -69,3 +69,123 @@
     text-transform: uppercase;
     letter-spacing: var(--ls);
 }
+
+/* !removing the browser default setting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* !style rules for hero */
+.hero {
+    background-color: var(--color-blue-100);
+}
+
+/* !style rules for navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.navbar__logo--text {
+    color: var(--color-white-100);
+    font-size: var(--h2);
+    font-family: var(--font-1);
+    font-weight: 500;
+}
+
+.navbar__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: var(--font-1);
+    font-weight: 500;
+}
+
+[class^="navbar__menu--item-"] {
+    color: var(--color-white-100);
+    text-decoration: none;
+}
+
+.navbar__icons i {
+    color: var(--color-white-100);
+    font-size: var(--h2);
+}
+
+.navbar__icons {
+    display: none;
+}
+
+/* !style rules for common classes */
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+@media(max-width:1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media(max-width:1024px) {
+    .container {
+        max-width: 740px;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .navbar__menu {
+        z-index: 1;
+        background-color: var(--color-blue-100);
+        position: absolute;
+        top: 15vh;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .navbar__menu--item-1 {
+        margin-top: -200px;
+    }
+
+    .navbar__icons {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .hidden {
+        z-index: -1;
+        opacity: 0%;
+    }
+}
+
+@media(max-width:568px) {
+    .container {
+        max-width: 90%;
+    }
+}

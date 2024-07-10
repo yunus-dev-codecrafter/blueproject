@@ -4,27 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="src/images/LogoDark.svg" />
-    <title>H I Academy</title>
+    <title>H I Academy - Home</title>
+    <link rel="stylesheet" href="src/styles/Designsystem.css" />
+    <link rel="stylesheet" href="src/styles/index.css" />
   </head>
   <body>
     <div class="hero">
-      <div class="navbar">
+      <div class="navbar container">
         <div class="navbar__logo">
           <img
             src="src/images/LogoWhite.svg"
             alt=""
             class="navbar__logo--image"
           />
-          <div class="navbar__logo--text">H I Academy - Home</div>
+          <div class="navbar__logo--text">H I Academy</div>
         </div>
-        <div class="navbar__menu">
-          <div class="navbar__menu--item-1">Home</div>
-          <div class="navbar__menu--item-2">About</div>
-          <div class="navbar__menu--item-3">News</div>
-          <div class="navbar__menu--item-4">Contact</div>
-          <div class="navbar__menu--item-5">Sign Up\Login</div>
+        <div class="navbar__menu hidden">
+          <a href="#home" class="navbar__menu--item-1">Home</a>
+          <a href="#about" class="navbar__menu--item-2">About</a>
+          <a href="#news" class="navbar__menu--item-3">News</a>
+          <a href="#contact" class="navbar__menu--item-4">Contact</a>
+          <a href="#signUp-login" class="navbar__menu--item-5">Sign Up\Login</a>
+        </div>
+        <div class="navbar__icons">
+          <i class="bi bi-list">=</i>
+          <i class="bi bi-x-lg hide">*</i>
         </div>
       </div>
     </div>
   </body>
+  <script src="src/main.js"></script>
 </html>

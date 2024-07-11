@@ -1,5 +1,5 @@
-let openBtn = document.querySelector(".bi-list");
-let closeBtn = document.querySelector(".bi-x-lg");
+let openBtn = document.querySelector(".fa-bars");
+let closeBtn = document.querySelector(".fa-xmark");
 let menu = document.querySelector(".navbar__menu")
 
 openBtn.addEventListener("click", ()=>{

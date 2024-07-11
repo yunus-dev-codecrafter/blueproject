@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="src/images/LogoDark.svg" />
     <title>H I Academy - Home</title>
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css"
+    />
     <link rel="stylesheet" href="src/styles/Designsystem.css" />
     <link rel="stylesheet" href="src/styles/index.css" />
   </head>
@@ -15,26 +35,36 @@
           <img
             src="src/images/LogoWhite.svg"
             alt=""
-            class="navbar__logo--image"
+            class="navbar__logo--image responsive-image"
           />
-          <div class="navbar__logo--text">H I Academy</div>
+          <!-- <div class="navbar__logo--text"></div> -->
         </div>
         <div class="navbar__menu hidden">
           <a href="#home" class="navbar__menu--item-1">Home</a>
           <a href="#about" class="navbar__menu--item-2">About</a>
           <a href="#news" class="navbar__menu--item-3">News</a>
           <a href="#contact" class="navbar__menu--item-4">Contact</a>
-          <a href="#signUp-login" class="navbar__menu--item-5">Sign Up\Login</a>
+          <div class="navbar__menu--item-5">
+            <button class="navbar__menu--item-5-btn-1">
+              <a href="">Sign Up</a>
+            </button>
+            <button class="navbar__menu--item-5-btn-2">
+              <a href="">Login</a>
+            </button>
+          </div>
+          <!-- <button href="#signUp-login" class="navbar__menu--item-5">
+            Sign Up\Login
+          </button> -->
         </div>
         <div class="navbar__icons">
-          <i class="bi bi-list">=</i>
-          <i class="bi bi-x-lg hide">*</i>
+          <i class="fa-regular fa-bars"></i>
+          <i class="fa-light fa-xmark hide"></i>
         </div>
       </div>
-      <div class="intro container">
-        <div class="intro__left">
+      <div class="intro container grid">
+        <div class="intro__left flex">
           <div class="intro__left--label label text-white">welcome to</div>
-          <div class="intro__left--title text-white title">
+          <div class="intro__left--title text-white common-title">
             Hammad Islamic Academy
           </div>
           <div class="intro__left--text text-white text">
@@ -49,6 +79,18 @@
         />
       </div>
     </div>
+    <!-- <div class="sectionOne">
+      <img
+        src="src/images/tahfeez__islamiyya.avif"
+        alt=""
+        class="sectionOne__left responsive-image"
+      />
+      <div class="sectionOne__right">
+        <div class="sectionOne__right--title"></div>
+        <div class="sectionOne__right--text"></div>
+        <button class="sectionOne__right--button">Enroll</button>
+      </div>
+    </div> -->
   </body>
   <script src="src/main.js"></script>
 </html>

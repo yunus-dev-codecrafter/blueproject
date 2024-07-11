@@ -223,7 +223,7 @@
     }
 
     .navbar__menu--item-1 {
-        margin-top: -250px;
+        margin-top: -200px;
     }
 
     .navbar__icons {
@@ -243,5 +243,10 @@
 @media(max-width:568px) {
     .container {
         max-width: 90%;
+    }
+
+    .hidden {
+        z-index: -1;
+        opacity: 0%;
     }
 }

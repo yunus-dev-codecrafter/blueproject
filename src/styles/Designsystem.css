@@ -142,9 +142,9 @@
 }
 
 .navbar__menu--item-5 {
-    /* display: flex;
-    flex-direction: row; */
-    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
 
 [class^="navbar__menu--item-5-btn-"] {

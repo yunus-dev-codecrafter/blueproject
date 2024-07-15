@@ -4,3 +4,18 @@
     font-size: var(--body);
     color: var(--color-white-75);
 }
+
+@media(max-width: 768px) {
+    .intro {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .intro__right {
+        order: 0;
+    }
+
+    .intro__left {
+        order: 1;
+    }
+}

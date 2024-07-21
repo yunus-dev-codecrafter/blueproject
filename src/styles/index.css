@@ -69,6 +69,9 @@
 [class^="sectionFive__cards--"] {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    padding: 20px 25px;
+    box-shadow: var(--shadow-1);
 }
 
 .sectionFive__cards {

@@ -190,6 +190,10 @@
     gap: 20px
 }
 
+.text-center {
+    text-align: center;
+}
+
 @media(max-width:1200px) {
     .container {
         max-width: 970px;
@@ -244,4 +248,21 @@
     .container {
         max-width: 90%;
     }
+}
+
+.footerWrapper {
+    background-color: var(--color-blue-100);
+    padding: 40px 0;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerLinks__socials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }

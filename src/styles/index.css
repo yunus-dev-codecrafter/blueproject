@@ -19,3 +19,77 @@
         order: 1;
     }
 }
+
+/* !style rules for section One */
+
+@media(max-width: 768px) {
+    .sectionOne {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sectionOne__right {
+        order: 0;
+    }
+
+    .sectionOne__left {
+        order: 1;
+    }
+}
+
+/* !style rules for section Two */
+
+@media(max-width: 768px) {
+    .sectionTwo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sectionTwo__right {
+        order: 1;
+    }
+
+    .sectionTwo__left {
+        order: 0;
+    }
+}
+
+
+/* !style rules for section five */
+
+.sectionFive {
+    margin-bottom: 10px;
+}
+
+.sectionFive__contents--text {
+    font-size: var(--sub);
+    font-family: var(--font-2);
+}
+
+[class^="sectionFive__cards--"] {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionFive__cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.sectionFive__btn {
+    align-self: center;
+}
+
+@media(max-width:768px) {
+    .sectionFive__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:568px) {
+    .sectionFive__cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

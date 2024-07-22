@@ -95,4 +95,11 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .footerLinks {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
 }

@@ -94,6 +94,7 @@
 .hero {
     background-color: var(--color-blue-100);
     padding: 20px 0;
+
 }
 
 /* !style rules for navbar */
@@ -103,6 +104,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
+
 }
 
 .navbar__logo {
@@ -111,6 +113,9 @@
     align-items: center;
     /* justify-content: space-between; */
     gap: 25px;
+
+
+
 }
 
 .navbar__logo--text {
@@ -118,6 +123,8 @@
     font-size: var(--h2);
     font-family: var(--font-1);
     font-weight: 500;
+
+
 }
 
 .navbar__menu {
@@ -127,6 +134,9 @@
     gap: 15px;
     font-family: var(--font-1);
     font-weight: 500;
+
+
+
 }
 
 [class^="navbar__menu--item-"] {
